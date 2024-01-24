@@ -9,11 +9,11 @@ if given_value.isdigit():
 else:
     print("Invalid, Value must be in numbers: ")
 
-highest_value = given_value + 10
-starting_value = given_value - 1
+highest_value = given_value + 11
+
 for i in range(given_value, highest_value):
     sum = given_value + i
-    print("Current number is =", i, " Previous Number is =", starting_value, " Sum =", sum,)
+    print("GIVEN | PREVIOUS | SUM")
+    print(i, "   +   ", given_value, "   =", sum)
 
     given_value = i
-    
